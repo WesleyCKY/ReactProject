@@ -1,26 +1,53 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Cards from "./components/Cards.jsx";
+import Intro from "./components/Intro";
+import Footer from "./components/Footer";
+import FB from './components/FB';
+import Product from './components/Product';
+import QA from './components/QA';
+import Channel from './components/Channel';
 import './App.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+class App extends React.Component {
+  render() {
+    return (
+     
+      <div>
+        <Navbar />
+        <div id={'Home'}>
+          <Banner />
+        </div>
+        <div id={'card'}>
+          <Cards />
+        </div>
+        <div id={'Intro'}>
+          <Intro />
+        </div>
+        <div id={'Product'}>
+          <Product />
+        </div>
+        <div id={'FB'}>
+          <FB />
+        </div>
+        <div id={'Channel'}>
+          <Channel />
+        </div>
+        <div id={'QA'}>
+          <QA />
+        </div>
+        <div id={'Footer'}>
+          <Footer />
+        </div>
+      </div>
+     
+     
+    );
+  };
+};
 
 export default App;

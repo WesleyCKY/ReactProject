@@ -28,6 +28,97 @@
   color: #61dafb;
 }
 
+.jumbotron {
+  background: url('./images/image7.png') no-repeat center center fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 500px;
+}
+
+.jumbotron-head{
+  text-align: center;
+  color: #61dafb;
+  text-shadow: 2px 2px #282c34;
+}
+
+.jumbotron-text{
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+.jumbotron-intro {
+  background: url('./images/image2.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 500px;
+}
+.jumbotron-product {
+  background: url('./images/image3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 500px;
+}
+
+.jumbotron-intro-head {
+  text-align: center;
+  color: #d1dadd;
+  text-shadow: 2px 2px black;
+}
+
+.jumbotron-intro-text {
+  text-align: center;
+  color: #61dafb;
+  text-shadow: 2px 2px #282c34;
+}
+
+.jumbo-bootom{
+  margin-bottom: 2rem;
+}
+
+.nav-shadow {
+  text-shadow: 1px 1px rgb(75, 84, 204);
+}
+
+.navbar-light .navbar-brand {
+  color: #61dafb
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}
+.navbar-nav {
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.jumbotron-product{
+  color: #282c34;
+  text-shadow: 1px 1px #61dafb;
+}
+
+.panel-footer{
+  background-color:#44505a;
+  border-color: #337ab7;
+  color: #FFFFFF;
+
+ }
+.product-title-size{
+  font-size: 1.5rem;
+}
+
+ .product-text-size{
+   font-size: 1.2rem;
+ }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
