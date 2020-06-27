@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfd59ba39b7ac1e7e755f3b70aec9f36",
+    "revision": "fc4470bf04befdd7dc37b0fffb45a236",
     "url": "/MaskSaver-web/index.html"
   },
   {
-    "revision": "843716aa025f35d2adf0",
-    "url": "/MaskSaver-web/static/css/main.a31f2b98.chunk.css"
+    "revision": "628b6c5136489a7171a0",
+    "url": "/MaskSaver-web/static/css/main.80847fdb.chunk.css"
   },
   {
     "revision": "4dcca64faf493ca94523",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/js/2.e37d9f12.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "843716aa025f35d2adf0",
-    "url": "/MaskSaver-web/static/js/main.d05d609f.chunk.js"
+    "revision": "628b6c5136489a7171a0",
+    "url": "/MaskSaver-web/static/js/main.be32ead8.chunk.js"
   },
   {
     "revision": "73358c22b4a4666f3da9",
