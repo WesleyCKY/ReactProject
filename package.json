@@ -17,7 +17,7 @@
     "react-scroll": "^1.7.16",
     "react-scrollable-anchor": "^0.6.1"
   },
-  "homepage": "http://iotsolution-tech/.github.io/MaskSaver-web",
+  "homepage": "http://iotsolution-tech.github.io/MaskSaver-web",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
