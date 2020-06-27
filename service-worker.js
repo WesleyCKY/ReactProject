@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MaskSaver-web/precache-manifest.69bc79afdc7bc2797998fa8e509b20e3.js"
+  "/MaskSaver-web/precache-manifest.f8c4b1cac4aa54dea08563bbf4211fb8.js"
 );
 
 self.addEventListener('message', (event) => {
