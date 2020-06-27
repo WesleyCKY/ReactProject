@@ -1,123 +1,120 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import '../App.css';
 
 const navbar = props => (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav" style={{ position: 'fixed', width: '100%', zIndex: 100 }}>
-        <a class="navbar-brand nav-shadow" href="#Home" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <Link
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-                to="Home"
-                activeClassName="selected"
-            >
-                MASK SAVER
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-nav" style={{ position: 'fixed', width: '100%', zIndex: 100 }}>
+        <Link className="navbar-brand nav-shadow" data-toggle="collapse" data-target=".navbar-collapse.show"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+            to="Home"
+        >
+            MASK SAVER
             </Link>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#Home" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}
-                            to="Home"
-                            activeClassName="selected"
-                        >
-                            主頁 <span class="sr-only">(current)</span>
-                        </Link>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Intro" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}
-                            to="Intro"
-                            activeClassName="selected"
-                        >
-                            關於
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+                <li className="nav-item active">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Home"
+
+                    >
+                        主頁 <span className="sr-only">(current)</span>
                     </Link>
-                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Product" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}
-                            to="Product"
-                            activeClassName="selected"
-                        >
-                            產品
-                        </Link>
-                    </a>
+                <li className="nav-item">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Intro"
+
+                    >
+                        關於
+                    </Link>
+
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#QA" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}
-                            to="QA"
-                            activeClassName="selected"
-                        >
-                            Q&A
+                <li className="nav-item">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Product"
+
+                    >
+                        產品
                         </Link>
-                    </a>
+
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Channel" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}
-                            to="Channel"
-                            activeClassName="selected"
-                        >
-                            我們的頻道
+                <li className="nav-item">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="QA"
+
+                    >
+                        Q&A
                         </Link>
-                    </a>
+
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Footer" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}
-                            to="Footer"
-                            activeClassName="selected"
-                        >
-                            聯絡我們
+                <li className="nav-item">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Channel"
+
+                    >
+                        我們的頻道
                         </Link>
-                    </a>
+
                 </li>
-                <li class="nav-item disabled">
-                    <a class="nav-link" href="#Photo" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}
-                            to="Photo"
-                            activeClassName="selected"
-                        >
-                            相薄
+                <li className="nav-item">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Footer"
+
+                    >
+                        聯絡我們
                         </Link>
-                    </a>
+
+                </li>
+                <li className="nav-item disabled">
+                    <Link className="nav-link" href="#Photo" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Photo"
+
+                    >
+                        相薄
+                        </Link>
+
                 </li>
             </ul>
         </div>

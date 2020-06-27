@@ -9,7 +9,7 @@ const Footer = () => {
                     <MDBRow>
                         <MDBCol md="4">
                             <h3 className="title">IOT Solution LTD</h3>
-                            <img src={Footerlogo} alt="footer logo image" className="img-fluid" />
+                            <img className="img-fluid" src={Footerlogo} alt="MASKSAVER logo" />
                         </MDBCol>
                         <MDBCol md="4">
                             <h3 className="title">辦公時間</h3>
@@ -17,11 +17,14 @@ const Footer = () => {
                             <br />
                             <h3 className="title">聯繫方式</h3>
                             <h5>pr@steamvr.hk</h5>
-                            {/* <div class="fb-share-button" data-href="https://www.facebook.com/masksaver/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div> */}
                         </MDBCol>
                         <MDBCol md="4">
-                            <h3 className="title">地址</h3>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14744.20417312936!2d114.07828700000002!3d22.502268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33c51a6462740c2c!2zU1RFQU0gVlIg5L2T6aqM5Lit5b-D!5e0!3m2!1szh-CN!2sus!4v1593256914372!5m2!1szh-CN!2sus" width="400" height="300" frameborder="0" allowfullscreen="" aria-hidden="false"></iframe>
+                            <MDBContainer>
+                                <h3 className="title">地址</h3>
+                                <div className="google-maps">
+                                    <iframe title="GmapEmbed" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14744.20417312936!2d114.07828700000002!3d22.502268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33c51a6462740c2c!2zU1RFQU0gVlIg5L2T6aqM5Lit5b-D!5e0!3m2!1szh-CN!2sus!4v1593256914372!5m2!1szh-CN!2sus" width="auto" height="300" frameBorder="0" allowFullScreen="" aria-hidden="false"></iframe>
+                                </div>
+                            </MDBContainer>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

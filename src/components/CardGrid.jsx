@@ -5,7 +5,7 @@ import React from "react";
 const CardGrid = props => (
     <div className="card text-center shadow">
         <div className="overflow">
-            <img src={props.imgsrc} alt="image 1" className="card-img-top bg-cover" />
+            <img src={props.imgsrc} alt="input" className="card-img-top bg-cover" />
         </div>
         <div className="card-body text-dark">
             <h5 className="card-title product-title-size">{props.title}</h5>

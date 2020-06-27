@@ -9,7 +9,6 @@ import Product from './components/Product';
 import QA from './components/QA';
 import Channel from './components/Channel';
 import './App.css';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 
 

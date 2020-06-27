@@ -4,17 +4,17 @@ const QA = props => (
     <div>
         <div><h3 className="text-center">The MASKSAVER常見問題</h3></div>
         <div id="accordion">
-            <div class="card-original">
-                <div class="card-header" id="headingOne">
-                    <h5 class="mb-12">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <div className="card-original">
+                <div className="card-header" id="headingOne">
+                    <h5 className="mb-12">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             (A) 關於MASKSAVER
         </button>
                     </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
+                <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div className="card-body">
                         <ul>Q:   甚麼是 Saving The Mask 計劃？</ul>
                         <ul>A:    Saving The Mask 計劃，藉 STEM 教育的目標，是利用科學方法解決生活中的難題。計劃旨在推動市民大眾學生使用可重用口罩，將緊拙供應的外科口罩等資源釋出給醫護前線等有需要人士使用。</ul>
                         <ul>Q:   The MASKSAVERTM 外殼是甚麼物料？</ul>
@@ -59,16 +59,16 @@ const QA = props => (
                     </div>
                 </div>
             </div>
-            <div class="card-original">
-                <div class="card-header" id="headingTwo">
-                    <h5 class="mb-12">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <div className="card-original">
+                <div className="card-header" id="headingTwo">
+                    <h5 className="mb-12">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             (B) 有關訂購產品
         </button>
                     </h5>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
+                <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div className="card-body">
                         <ul>Q:    請問如何買?</ul>
                         <ul>A:     謝謝對我們產品有興趣。個人訂購連結：www.masksaver.store</ul>
                         <ul>Q:    請問...?</ul>
@@ -95,16 +95,16 @@ const QA = props => (
                     </div>
                 </div>
             </div>
-            <div class="card-original">
-                <div class="card-header" id="headingThree">
-                    <h5 class="mb-12">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <div className="card-original">
+                <div className="card-header" id="headingThree">
+                    <h5 className="mb-12">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             (C) 有關（海外購買）寄貨方面
         </button>
                     </h5>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
+                <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div className="card-body">
                         <ul>由於最近DHL 及EMS 的客服熱線繁忙，我哋未能提供有關公司最新的收費及限制，買家可先自行了解相關細節及收費，我哋會盡量配合。</ul>
                         <ul>（注意：買家需自行承受運送風險）</ul>
                         <ul>Q:    會唔會寄海外？</ul>
@@ -125,16 +125,16 @@ const QA = props => (
                     </div>
                 </div>
             </div>
-            <div class="card-original">
-                <div class="card-header" id="headingFour">
-                    <h5 class="mb-12">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <div className="card-original">
+                <div className="card-header" id="headingFour">
+                    <h5 className="mb-12">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             (D) 有關批發
                         </button>
                     </h5>
                 </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                    <div class="card-body">
+                <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div className="card-body">
                         <ul>Q:    MASKSAVER Export: Bulk order from other countries</ul>
                         <ul>A:     Thanks for your interest.</ul>
                         <ul>1) Could you leave your namecard photo to us?</ul>
@@ -144,16 +144,16 @@ const QA = props => (
                     </div>
                 </div>
             </div>
-            <div class="card-original">
-                <div class="card-header" id="headingFive">
-                    <h5 class="mb-12">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <div className="card-original">
+                <div className="card-header" id="headingFive">
+                    <h5 className="mb-12">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             (E) 其他
                         </button>
                     </h5>
                 </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                    <div class="card-body">
+                <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div className="card-body">
                         <ul>Q:    MASKSAVER有無現貨？</ul>
                         <ul>A:     謝謝對我們產品有興趣。</ul>
                         <ul>成功落單後，大部份產品大約等數天便會有貨</ul>
