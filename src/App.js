@@ -17,9 +17,10 @@ class App extends React.Component {
   render() {
     return (
      
-      <div>
+      <div className="div.disabled">
         <Navbar />
         <div id={'Home'}>
+          <br />
           <Banner />
         </div>
         <div id={'card'}>
@@ -45,7 +46,7 @@ class App extends React.Component {
         </div>
       </div>
      
-     
+
     );
   };
 };

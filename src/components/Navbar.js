@@ -3,58 +3,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import '../App.css';
 
 const navbar = props => (
-    // <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav" style={{ position: 'fixed', width: '100%', zIndex: 100 }}>
-    //     <a class="navbar-brand nav-shadow" href="#Banner">MASK SAVER</a>
-    //     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    //         <span class="navbar-toggler-icon"></span>
-    //     </button>
-    //     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    //         <div class="navbar-nav">
-    //             {/* <a class="nav-item nav-link active" href='#Banner'>Home <span class="sr-only">(current)</span></a>
-    //             <a class="nav-item nav-link" href='#Intro'>關於</a>
-    //             <a class="nav-item nav-link" href='#Footer'>聯絡我們</a> */}
-    //             <Link
-    //                 className="navbar-nav"
-    //                 spy={true}
-    //                 smooth={true}
-    //                 offset={-70}
-    //                 duration={1000}
-    //                 to="Banner"
-    //             // activeClassName="selected"
-    //             >
-    //                 Home
-    //                 </Link>
-    //             <Link
-    //                 // class="nav-item nav-link active"
-    //                 className="navbar-nav"
-    //                 activeClass="active"
-    //                 spy={true}
-    //                 smooth={true}
-    //                 offset={-70}
-    //                 duration={1000}
-    //                 to="Intro"
-    //             // activeClassName="selected"
-    //             >
-    //                 關於
-    //                 </Link>
-    //             <Link
-    //                 class="navbar-nav"
-    //                 activeClass="active"
-    //                 spy={true}
-    //                 smooth={true}
-    //                 offset={-70}
-    //                 duration={1000}
-    //                 to="Footer"
-    //             // activeClassName="selected"
-    //             >
-    //                 聯絡我們
-    //                 </Link>
-    //         </div>
-    //     </div>
-    // </nav>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav" style={{ position: 'fixed', width: '100%', zIndex: 100 }}>
-        <a class="navbar-brand nav-shadow" href="#Home">
+        <a class="navbar-brand nav-shadow" href="#Home" data-toggle="collapse" data-target=".navbar-collapse.show">
             <Link
                 spy={true}
                 smooth={true}
@@ -72,7 +22,7 @@ const navbar = props => (
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#Home">
+                    <a class="nav-link" href="#Home" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link
                             spy={true}
                             smooth={true}
@@ -86,7 +36,7 @@ const navbar = props => (
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Intro">
+                    <a class="nav-link" href="#Intro" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link
                             spy={true}
                             smooth={true}
@@ -100,7 +50,7 @@ const navbar = props => (
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Product">
+                    <a class="nav-link" href="#Product" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link
                             spy={true}
                             smooth={true}
@@ -114,7 +64,7 @@ const navbar = props => (
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#QA">
+                    <a class="nav-link" href="#QA" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link
                             spy={true}
                             smooth={true}
@@ -128,7 +78,7 @@ const navbar = props => (
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Channel">
+                    <a class="nav-link" href="#Channel" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link
                             spy={true}
                             smooth={true}
@@ -142,7 +92,7 @@ const navbar = props => (
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Footer">
+                    <a class="nav-link" href="#Footer" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link
                             spy={true}
                             smooth={true}
@@ -156,7 +106,7 @@ const navbar = props => (
                     </a>
                 </li>
                 <li class="nav-item disabled">
-                    <a class="nav-link" href="#Photo">
+                    <a class="nav-link" href="#Photo" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link
                             spy={true}
                             smooth={true}

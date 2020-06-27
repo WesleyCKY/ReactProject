@@ -6,14 +6,14 @@ const QA = props => (
         <div id="accordion">
             <div class="card-original">
                 <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <h5 class="mb-12">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             (A) 關於MASKSAVER
         </button>
                     </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                         <ul>Q:   甚麼是 Saving The Mask 計劃？</ul>
                         <ul>A:    Saving The Mask 計劃，藉 STEM 教育的目標，是利用科學方法解決生活中的難題。計劃旨在推動市民大眾學生使用可重用口罩，將緊拙供應的外科口罩等資源釋出給醫護前線等有需要人士使用。</ul>
@@ -61,7 +61,7 @@ const QA = props => (
             </div>
             <div class="card-original">
                 <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
+                    <h5 class="mb-12">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             (B) 有關訂購產品
         </button>
@@ -97,7 +97,7 @@ const QA = props => (
             </div>
             <div class="card-original">
                 <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
+                    <h5 class="mb-12">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             (C) 有關（海外購買）寄貨方面
         </button>
@@ -127,7 +127,7 @@ const QA = props => (
             </div>
             <div class="card-original">
                 <div class="card-header" id="headingFour">
-                    <h5 class="mb-0">
+                    <h5 class="mb-12">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             (D) 有關批發
                         </button>
@@ -146,7 +146,7 @@ const QA = props => (
             </div>
             <div class="card-original">
                 <div class="card-header" id="headingFive">
-                    <h5 class="mb-0">
+                    <h5 class="mb-12">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             (E) 其他
                         </button>

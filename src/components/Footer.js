@@ -21,7 +21,7 @@ const Footer = () => {
                         </MDBCol>
                         <MDBCol md="4">
                             <h3 className="title">地址</h3>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7372.10208656468!2d114.07828700000002!3d22.502268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33c51a6462740c2c!2zU1RFQU0gVlIg5L2T6aqM5Lit5b-D!5e0!3m2!1szh-CN!2sus!4v1593187637765!5m2!1szh-CN!2sus" width="500" height="300" frameBorder="0" />
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14744.20417312936!2d114.07828700000002!3d22.502268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33c51a6462740c2c!2zU1RFQU0gVlIg5L2T6aqM5Lit5b-D!5e0!3m2!1szh-CN!2sus!4v1593256914372!5m2!1szh-CN!2sus" width="400" height="300" frameborder="0" allowfullscreen="" aria-hidden="false"></iframe>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
