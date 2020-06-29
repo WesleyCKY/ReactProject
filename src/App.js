@@ -8,16 +8,15 @@ import FB from './components/FB';
 import Product from './components/Product';
 import QA from './components/QA';
 import Channel from './components/Channel';
-// import TopBanner from './components/JumbotronPage';
 import Founders from './components/Founders';
+import Gallery from './components/Gallery';
 import './App.css';
-
 
 
 class App extends React.Component {
   render() {
     return (
-     
+
       <div className="div.disabled">
         <Navbar />
         <div id={'Home'}>
@@ -25,7 +24,6 @@ class App extends React.Component {
           <Banner />
         </div>
         <div id={'card'}>
-          
           <Cards />
         </div>
         <div id={'Intro'}>
@@ -40,6 +38,9 @@ class App extends React.Component {
         <div id={'FB'}>
           <FB />
         </div>
+        <div id={'Gallery'}>
+          <Gallery />
+        </div>
         <div id={'Channel'}>
           <Channel />
         </div>
@@ -50,8 +51,6 @@ class App extends React.Component {
           <Footer />
         </div>
       </div>
-     
-
     );
   };
 };

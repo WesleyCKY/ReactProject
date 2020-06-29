@@ -5,7 +5,7 @@ import React from 'react';
 const Intro = props => (
     <div className="jumbotron-intro jumbo-bootom">
         <div className="container">
-            <h1 className="jumbotron-intro-head">關於</h1>
+            <h1 className="jumbotron-intro-head heading">關於</h1>
             <h1 className="jumbotron-intro-head">MaskSaver</h1>
             <h3 className="jumbotron-intro-text">THE MASKSAVER 的幾位計劃發起⼈本⾝為 S.T.E.M. 導師， 發現很多學校都未能採購⾜夠的防疫物資，便以環保⻆度設計出可重⽤⼝罩， 以協助解決近⼀百萬學童復課的資源問題，期望可助學界渡過疫情。</h3>
             <br />

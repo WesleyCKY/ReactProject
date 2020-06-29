@@ -82,10 +82,24 @@ const navbar = props => (
                         smooth={true}
                         offset={-70}
                         duration={1000}
-                        to="QA"
+                        to="FB"
 
                     >
-                        Q&A
+                        關注我們
+                        </Link>
+
+                </li>
+                <li className="nav-item disabled">
+                    <Link className="nav-link" href="#Photo" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Gallery"
+
+                    >
+                        相薄
                         </Link>
 
                 </li>
@@ -110,6 +124,20 @@ const navbar = props => (
                         smooth={true}
                         offset={-70}
                         duration={1000}
+                        to="QA"
+
+                    >
+                        Q&A
+                        </Link>
+
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
                         to="Footer"
 
                     >
@@ -117,20 +145,7 @@ const navbar = props => (
                         </Link>
 
                 </li>
-                <li className="nav-item disabled">
-                    <Link className="nav-link" href="#Photo" data-toggle="collapse" data-target=".navbar-collapse.show"
-
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={1000}
-                        to="Photo"
-
-                    >
-                        相薄
-                        </Link>
-
-                </li>
+               
             </ul>
         </div>
     </nav>

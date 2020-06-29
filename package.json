@@ -15,11 +15,14 @@
     "react-bootstrap": "^1.0.1",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^16.13.1",
+    "react-elastic-carousel": "^0.6.4",
     "react-images": "^1.1.7",
+    "react-responsive-carousel": "^3.2.9",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
-    "react-scrollable-anchor": "^0.6.1"
+    "react-scrollable-anchor": "^0.6.1",
+    "styled-components": "^5.1.1"
   },
   "homepage": "http://iotsolution-tech.github.io/MaskSaver-web",
   "scripts": {
@@ -46,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "react-alice-carousel": "^1.19.3"
   }
 }

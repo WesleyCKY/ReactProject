@@ -2,8 +2,8 @@ import React from "react";
 
 const QA = props => (
     <div>
-        <div><h3 className="text-center">The MASKSAVER常見問題</h3></div>
-        <div id="accordion">
+        <div><h3 className="text-center heading">The MASKSAVER常見問題</h3></div>
+        <div id="accordion" className="container">
             <div className="card-original">
                 <div className="card-header" id="headingOne">
                     <h5 className="mb-12">

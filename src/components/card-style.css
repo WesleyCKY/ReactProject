@@ -11,7 +11,7 @@ body{
     margin: 1rem auto; /* Added */
     float: none; /* Added */
     margin-bottom: 2rem; /* Added */
-    margin-left: 0rem;
+    margin-left: 1.5rem;
     align-self: center;
     
 }
@@ -49,11 +49,11 @@ body{
 }
 
 .card-img-top:hover{
-    transform: scale(2.5);
+    transform: scale(2);
 }
 .bg-cover {
-    width: 350px ;
-    height: 200px;
+    width: 380px ;
+    height: 300px;
     background-size: cover;
-    outline: 1px solid rgb(17, 15, 15);
+    outline: 0px solid rgb(17, 15, 15);
   }

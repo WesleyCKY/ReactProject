@@ -4,7 +4,7 @@ class FB extends Component {
     render() {
         return (
             <div>
-                <h3 className="text-center">最新消息</h3>
+                <h3 className="text-center heading">關注我們</h3>
             <MDBContainer fluid className="text-center">
                 <MDBRow>
                     <MDBCol md="12">
