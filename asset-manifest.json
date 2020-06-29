@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/MaskSaver-web/static/css/main.4f942c47.chunk.css",
-    "main.js": "/MaskSaver-web/static/js/main.bd7b006a.chunk.js",
-    "main.js.map": "/MaskSaver-web/static/js/main.bd7b006a.chunk.js.map",
+    "main.css": "/MaskSaver-web/static/css/main.faeae7c2.chunk.css",
+    "main.js": "/MaskSaver-web/static/js/main.fae81188.chunk.js",
+    "main.js.map": "/MaskSaver-web/static/js/main.fae81188.chunk.js.map",
     "runtime-main.js": "/MaskSaver-web/static/js/runtime-main.2e22570c.js",
     "runtime-main.js.map": "/MaskSaver-web/static/js/runtime-main.2e22570c.js.map",
-    "static/js/2.e37d9f12.chunk.js": "/MaskSaver-web/static/js/2.e37d9f12.chunk.js",
-    "static/js/2.e37d9f12.chunk.js.map": "/MaskSaver-web/static/js/2.e37d9f12.chunk.js.map",
+    "static/js/2.f18208b0.chunk.js": "/MaskSaver-web/static/js/2.f18208b0.chunk.js",
+    "static/js/2.f18208b0.chunk.js.map": "/MaskSaver-web/static/js/2.f18208b0.chunk.js.map",
     "index.html": "/MaskSaver-web/index.html",
-    "precache-manifest.f8c4b1cac4aa54dea08563bbf4211fb8.js": "/MaskSaver-web/precache-manifest.f8c4b1cac4aa54dea08563bbf4211fb8.js",
+    "precache-manifest.5cd0859300a20c303b1c8839b27470f5.js": "/MaskSaver-web/precache-manifest.5cd0859300a20c303b1c8839b27470f5.js",
     "service-worker.js": "/MaskSaver-web/service-worker.js",
-    "static/css/main.4f942c47.chunk.css.map": "/MaskSaver-web/static/css/main.4f942c47.chunk.css.map",
-    "static/js/2.e37d9f12.chunk.js.LICENSE.txt": "/MaskSaver-web/static/js/2.e37d9f12.chunk.js.LICENSE.txt",
+    "static/css/main.faeae7c2.chunk.css.map": "/MaskSaver-web/static/css/main.faeae7c2.chunk.css.map",
+    "static/js/2.f18208b0.chunk.js.LICENSE.txt": "/MaskSaver-web/static/js/2.f18208b0.chunk.js.LICENSE.txt",
+    "static/media/founder1.png": "/MaskSaver-web/static/media/founder1.2c4a93fd.png",
+    "static/media/founder2.png": "/MaskSaver-web/static/media/founder2.7b6239d6.png",
+    "static/media/founder3.png": "/MaskSaver-web/static/media/founder3.369671b7.png",
+    "static/media/App.css": "/MaskSaver-web/static/media/image0.33fef0bf.jpg",
     "static/media/image1.jpeg": "/MaskSaver-web/static/media/image1.8d8b68c3.jpeg",
     "static/media/image2.jpeg": "/MaskSaver-web/static/media/image2.46fae4fc.jpeg",
     "static/media/image3.jpg": "/MaskSaver-web/static/media/image3.9f9dd530.jpg",
@@ -23,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2e22570c.js",
-    "static/js/2.e37d9f12.chunk.js",
-    "static/css/main.4f942c47.chunk.css",
-    "static/js/main.bd7b006a.chunk.js"
+    "static/js/2.f18208b0.chunk.js",
+    "static/css/main.faeae7c2.chunk.css",
+    "static/js/main.fae81188.chunk.js"
   ]
 }
