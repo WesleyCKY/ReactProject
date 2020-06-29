@@ -15,7 +15,7 @@ class Founders extends Component {
                 <div className="container-fluid">
                     <div className="card-group row col-12 ">
                         <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                            <Founder imagesrc={img1} name={"發起人: 李偉康 Alex"} text={"(STEM 老師；香港發明創新總會常務副主席) 發起人: 李偉康 Alex (STEM 老師；香港發明創新總會常務副主席)"} />
+                            <Founder imagesrc={img1} name={"發起人: 李偉康 Alex"} text={"(STEM 老師: 香港發明創新總會常務副主席)"} />
                         </div>
 
                         <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
