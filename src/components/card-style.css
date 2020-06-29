@@ -7,12 +7,13 @@ body{
 } */
 
 .card {
-    width: auto;
+    max-width: 345px;
     margin: 1rem auto; /* Added */
     float: none; /* Added */
     margin-bottom: 2rem; /* Added */
-    margin-left: 1rem;
+    margin-left: 0rem;
     align-self: center;
+    
 }
 
 .card-original{
@@ -51,7 +52,7 @@ body{
     transform: scale(2.5);
 }
 .bg-cover {
-    width: 300px;
+    width: 350px ;
     height: 200px;
     background-size: cover;
     outline: 1px solid rgb(17, 15, 15);

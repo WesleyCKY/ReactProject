@@ -46,6 +46,21 @@ const navbar = props => (
                     </Link>
 
                 </li>
+
+                <li className="nav-item">
+                    <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        to="Founders"
+
+                    >
+                        創辦人
+                    </Link>
+
+                </li>
                 <li className="nav-item">
                     <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
 

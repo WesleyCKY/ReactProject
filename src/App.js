@@ -8,6 +8,8 @@ import FB from './components/FB';
 import Product from './components/Product';
 import QA from './components/QA';
 import Channel from './components/Channel';
+// import TopBanner from './components/JumbotronPage';
+import Founders from './components/Founders';
 import './App.css';
 
 
@@ -23,10 +25,14 @@ class App extends React.Component {
           <Banner />
         </div>
         <div id={'card'}>
+          
           <Cards />
         </div>
         <div id={'Intro'}>
           <Intro />
+        </div>
+        <div id={'Founders'}>
+          <Founders />
         </div>
         <div id={'Product'}>
           <Product />
