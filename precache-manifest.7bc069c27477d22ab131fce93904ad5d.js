@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea9f36eb38c44c9764493531596249ba",
+    "revision": "5d60adc4938916d2f41344538d6db94c",
     "url": "/MaskSaver-web/index.html"
   },
   {
-    "revision": "3f6ce22ef749754eba49",
-    "url": "/MaskSaver-web/static/css/main.4f251519.chunk.css"
+    "revision": "d46706aa65b8802bb174",
+    "url": "/MaskSaver-web/static/css/main.133f58af.chunk.css"
   },
   {
-    "revision": "0ad6785640768615d068",
-    "url": "/MaskSaver-web/static/js/2.f2e47681.chunk.js"
+    "revision": "919a9eb39c91a1b4cde1",
+    "url": "/MaskSaver-web/static/js/2.47758606.chunk.js"
   },
   {
     "revision": "b980a6607bae2171b6f1d2846f8c0b79",
-    "url": "/MaskSaver-web/static/js/2.f2e47681.chunk.js.LICENSE.txt"
+    "url": "/MaskSaver-web/static/js/2.47758606.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f6ce22ef749754eba49",
-    "url": "/MaskSaver-web/static/js/main.22212849.chunk.js"
+    "revision": "d46706aa65b8802bb174",
+    "url": "/MaskSaver-web/static/js/main.36b6a63d.chunk.js"
   },
   {
     "revision": "73358c22b4a4666f3da9",
