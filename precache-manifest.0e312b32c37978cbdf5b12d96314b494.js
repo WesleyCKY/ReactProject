@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac4e4688e962779c535eb3f958238f94",
+    "revision": "ea9f36eb38c44c9764493531596249ba",
     "url": "/MaskSaver-web/index.html"
   },
   {
-    "revision": "325adf6d384b3223351f",
+    "revision": "3f6ce22ef749754eba49",
     "url": "/MaskSaver-web/static/css/main.4f251519.chunk.css"
   },
   {
-    "revision": "8ed9e924ff8123b76ae5",
-    "url": "/MaskSaver-web/static/js/2.51a03b5b.chunk.js"
+    "revision": "0ad6785640768615d068",
+    "url": "/MaskSaver-web/static/js/2.f2e47681.chunk.js"
   },
   {
     "revision": "b980a6607bae2171b6f1d2846f8c0b79",
-    "url": "/MaskSaver-web/static/js/2.51a03b5b.chunk.js.LICENSE.txt"
+    "url": "/MaskSaver-web/static/js/2.f2e47681.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "325adf6d384b3223351f",
-    "url": "/MaskSaver-web/static/js/main.39570390.chunk.js"
+    "revision": "3f6ce22ef749754eba49",
+    "url": "/MaskSaver-web/static/js/main.22212849.chunk.js"
   },
   {
     "revision": "73358c22b4a4666f3da9",
@@ -72,6 +72,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/media/logo.7de1c20e.jpeg"
   },
   {
+    "revision": "6025187d1e13d85157353119cb97b19d",
+    "url": "/MaskSaver-web/static/media/photo1.6025187d.jpeg"
+  },
+  {
+    "revision": "d02a672c386081b6e0c114cc53f73bf2",
+    "url": "/MaskSaver-web/static/media/photo10.d02a672c.jpeg"
+  },
+  {
+    "revision": "abd6da6be61fed451497fd98ae68df7a",
+    "url": "/MaskSaver-web/static/media/photo11.abd6da6b.jpeg"
+  },
+  {
     "revision": "c7febe18c42b0c6185b2b9f0941a3a08",
     "url": "/MaskSaver-web/static/media/photo2.c7febe18.jpg"
   },
@@ -84,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/media/photo4.7a589bcf.jpg"
   },
   {
+    "revision": "fbde9e7e37a777762f17b04756efc345",
+    "url": "/MaskSaver-web/static/media/photo5.fbde9e7e.jpg"
+  },
+  {
     "revision": "d775cc80d525fb8946a60ca3552bcd41",
     "url": "/MaskSaver-web/static/media/photo6.d775cc80.jpg"
   },
@@ -94,5 +110,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd8acd2a9ea7a82f15ead6bc0c2ec38b",
     "url": "/MaskSaver-web/static/media/photo8.bd8acd2a.jpg"
+  },
+  {
+    "revision": "327b70333ffdb5b0d3ae7c12c77fc794",
+    "url": "/MaskSaver-web/static/media/photo9.327b7033.jpeg"
   }
 ]);

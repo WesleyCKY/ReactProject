@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MaskSaver-web/static/css/main.4f251519.chunk.css",
-    "main.js": "/MaskSaver-web/static/js/main.39570390.chunk.js",
-    "main.js.map": "/MaskSaver-web/static/js/main.39570390.chunk.js.map",
+    "main.js": "/MaskSaver-web/static/js/main.22212849.chunk.js",
+    "main.js.map": "/MaskSaver-web/static/js/main.22212849.chunk.js.map",
     "runtime-main.js": "/MaskSaver-web/static/js/runtime-main.2e22570c.js",
     "runtime-main.js.map": "/MaskSaver-web/static/js/runtime-main.2e22570c.js.map",
-    "static/js/2.51a03b5b.chunk.js": "/MaskSaver-web/static/js/2.51a03b5b.chunk.js",
-    "static/js/2.51a03b5b.chunk.js.map": "/MaskSaver-web/static/js/2.51a03b5b.chunk.js.map",
+    "static/js/2.f2e47681.chunk.js": "/MaskSaver-web/static/js/2.f2e47681.chunk.js",
+    "static/js/2.f2e47681.chunk.js.map": "/MaskSaver-web/static/js/2.f2e47681.chunk.js.map",
     "index.html": "/MaskSaver-web/index.html",
-    "precache-manifest.dc2efa0cb0bccd6eff3566ddaf61285c.js": "/MaskSaver-web/precache-manifest.dc2efa0cb0bccd6eff3566ddaf61285c.js",
+    "precache-manifest.0e312b32c37978cbdf5b12d96314b494.js": "/MaskSaver-web/precache-manifest.0e312b32c37978cbdf5b12d96314b494.js",
     "service-worker.js": "/MaskSaver-web/service-worker.js",
     "static/css/main.4f251519.chunk.css.map": "/MaskSaver-web/static/css/main.4f251519.chunk.css.map",
-    "static/js/2.51a03b5b.chunk.js.LICENSE.txt": "/MaskSaver-web/static/js/2.51a03b5b.chunk.js.LICENSE.txt",
+    "static/js/2.f2e47681.chunk.js.LICENSE.txt": "/MaskSaver-web/static/js/2.f2e47681.chunk.js.LICENSE.txt",
     "static/media/image1.jpeg": "/MaskSaver-web/static/media/image1.8d8b68c3.jpeg",
     "static/media/image2.jpeg": "/MaskSaver-web/static/media/image2.46fae4fc.jpeg",
     "static/media/image3.jpg": "/MaskSaver-web/static/media/image3.9f9dd530.jpg",
@@ -24,17 +24,22 @@
     "static/media/jpic2.jpg": "/MaskSaver-web/static/media/jpic2.0b0984fb.jpg",
     "static/media/jpic3.jpg": "/MaskSaver-web/static/media/jpic3.1719d56f.jpg",
     "static/media/App.css": "/MaskSaver-web/static/media/logo.7de1c20e.jpeg",
+    "static/media/photo1.jpeg": "/MaskSaver-web/static/media/photo1.6025187d.jpeg",
+    "static/media/photo10.jpeg": "/MaskSaver-web/static/media/photo10.d02a672c.jpeg",
+    "static/media/photo11.jpeg": "/MaskSaver-web/static/media/photo11.abd6da6b.jpeg",
     "static/media/photo2.jpg": "/MaskSaver-web/static/media/photo2.c7febe18.jpg",
     "static/media/photo3.jpg": "/MaskSaver-web/static/media/photo3.87793572.jpg",
     "static/media/photo4.jpg": "/MaskSaver-web/static/media/photo4.7a589bcf.jpg",
+    "static/media/photo5.jpg": "/MaskSaver-web/static/media/photo5.fbde9e7e.jpg",
     "static/media/photo6.jpg": "/MaskSaver-web/static/media/photo6.d775cc80.jpg",
     "static/media/photo7.jpg": "/MaskSaver-web/static/media/photo7.404d5158.jpg",
-    "static/media/photo8.jpg": "/MaskSaver-web/static/media/photo8.bd8acd2a.jpg"
+    "static/media/photo8.jpg": "/MaskSaver-web/static/media/photo8.bd8acd2a.jpg",
+    "static/media/photo9.jpeg": "/MaskSaver-web/static/media/photo9.327b7033.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e22570c.js",
-    "static/js/2.51a03b5b.chunk.js",
+    "static/js/2.f2e47681.chunk.js",
     "static/css/main.4f251519.chunk.css",
-    "static/js/main.39570390.chunk.js"
+    "static/js/main.22212849.chunk.js"
   ]
 }
