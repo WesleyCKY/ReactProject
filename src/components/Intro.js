@@ -1,8 +1,12 @@
 
 import React from 'react';
+import Button from '@material-ui/core/Button';
+import Grid from "@material-ui/core/Grid";
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 
 const Intro = props => (
+
     <div className="container">
         <div className="jumbotron-intro jumbo-bootom">
             <div className="container">
@@ -11,7 +15,24 @@ const Intro = props => (
                 <h3 className="jumbotron-intro-text">THE MASKSAVER 的幾位計劃發起⼈本⾝為 S.T.E.M. 導師， 發現很多學校都未能採購⾜夠的防疫物資，便以環保⻆度設計出可重⽤⼝罩， 以協助解決近⼀百萬學童復課的資源問題，期望可助學界渡過疫情。</h3>
                 <br />
                 <h3 className="jumbotron-intro-text jumbo-bootom">The MASKSAVER 可重⽤⼝罩是給市⺠⼤眾⽇常使⽤， 並將醫護級⼝罩釋出給醫護/前線等有需要⼈⼠使⽤。 ⼝罩的外殼以⻝品級柔軟塑膠製作，無味無毒，不但可多次使⽤， 更是環保可循環再⽤及可回收再造，有助減低⼀次性⼝罩對環境的影響。</h3>
+                <Grid container justify="center">
+                    {/* <BrowserRouter>
+                    <Link to="https://www.masksaver.store/"> */}
+                    <a href="https://www.masksaver.store/">
+                        <Button
+                            variant="contained"
+                            color="secondary"
+                            justify="center"
+                            startIcon={<AddShoppingCartIcon />}
+                        >
+                            立即購買
+                         </Button>
+                    </a>
+                    {/* </Link>
+                    </BrowserRouter> */}
+                </Grid>
             </div>
+
         </div>
     </div>
 

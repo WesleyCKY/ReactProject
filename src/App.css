@@ -152,6 +152,9 @@ div.disabled {
   height: 100% !important;
 }
 
+.button {
+  margin: themeSpacing(1),
+}
 
 
 @keyframes App-logo-spin {
