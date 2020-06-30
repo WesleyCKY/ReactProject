@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a25960b83d9573f737220e7aa6fdfb36",
+    "revision": "090467cef19bf93b8a2006f61a9cdf0f",
     "url": "/MaskSaver-web/index.html"
   },
   {
-    "revision": "d2ae80008a7cb7947fe8",
-    "url": "/MaskSaver-web/static/css/main.133f58af.chunk.css"
+    "revision": "de3f8d972e2da11ce2eb",
+    "url": "/MaskSaver-web/static/css/main.ee353cde.chunk.css"
   },
   {
-    "revision": "919a9eb39c91a1b4cde1",
-    "url": "/MaskSaver-web/static/js/2.47758606.chunk.js"
+    "revision": "635ea9b2bae467bd7e16",
+    "url": "/MaskSaver-web/static/js/2.137956e5.chunk.js"
   },
   {
     "revision": "b980a6607bae2171b6f1d2846f8c0b79",
-    "url": "/MaskSaver-web/static/js/2.47758606.chunk.js.LICENSE.txt"
+    "url": "/MaskSaver-web/static/js/2.137956e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2ae80008a7cb7947fe8",
-    "url": "/MaskSaver-web/static/js/main.b00ef2b7.chunk.js"
+    "revision": "de3f8d972e2da11ce2eb",
+    "url": "/MaskSaver-web/static/js/main.6517e7a3.chunk.js"
   },
   {
     "revision": "73358c22b4a4666f3da9",
     "url": "/MaskSaver-web/static/js/runtime-main.2e22570c.js"
+  },
+  {
+    "revision": "d5a342dc1dc38f945992214b9b32570d",
+    "url": "/MaskSaver-web/static/media/blurimg.d5a342dc.jpg"
   },
   {
     "revision": "8d8b68c3b059351e0c007e150f2902ee",
@@ -52,10 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/media/image7.9d51d645.png"
   },
   {
-    "revision": "c449765825ae23b627174d2b54ed0924",
-    "url": "/MaskSaver-web/static/media/image8.c4497658.png"
-  },
-  {
     "revision": "453cc20cf1ef9c9b7895d48f688fca68",
     "url": "/MaskSaver-web/static/media/jpic1.453cc20c.jpg"
   },
@@ -70,6 +70,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7de1c20e1f633117d08ee0b5628ba1be",
     "url": "/MaskSaver-web/static/media/logo.7de1c20e.jpeg"
+  },
+  {
+    "revision": "085911a7b28033a72d3a8d725183a786",
+    "url": "/MaskSaver-web/static/media/logo_1.085911a7.png"
+  },
+  {
+    "revision": "f4104ffa8b6b4e52ba6368c20034b48e",
+    "url": "/MaskSaver-web/static/media/logo_2.f4104ffa.png"
+  },
+  {
+    "revision": "610114337942e0770a48aa37e08d6ac0",
+    "url": "/MaskSaver-web/static/media/logo_3.61011433.svg"
   },
   {
     "revision": "be0f176279058e3278be1f67655127af",
