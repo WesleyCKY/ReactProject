@@ -78,7 +78,7 @@ div.disabled {
   min-height: 500px;
 }
 .jumbotron-product {
-  background: url('./images/image3.jpg') no-repeat center center fixed;
+  background: url('./images/blurimg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -86,16 +86,19 @@ div.disabled {
   min-height: 500px;
 }
 
+
 .jumbotron-intro-head {
+  opacity: 1.0;
   text-align: center;
   color: #d1dadd;
   text-shadow: 2px 2px black;
 }
 
 .jumbotron-intro-text {
+  opacity: 1.0;
   text-align: center;
-  color: #61dafb;
-  text-shadow: 2px 2px #282c34;
+  color: #49e5f0;
+  text-shadow: 2px 2px #424752;
 }
 
 .jumbo-bootom{
@@ -120,8 +123,8 @@ div.disabled {
 }
 
 .jumbotron-product{
-  color: #282c34;
-  text-shadow: 1px 1px #61dafb;
+  color: #080808e3;
+  text-shadow: 1px 1px #e8eff1;
 }
 
 .panel-footer{
@@ -149,11 +152,27 @@ div.disabled {
   top: 0;
   left: 0;
   width: 100% !important;
-  height: 100% !important;
+  height: 70% !important;
 }
 
 .button {
   margin: themeSpacing(1),
+}
+
+.container-product {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container-product .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
 
 

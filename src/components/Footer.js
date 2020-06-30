@@ -1,24 +1,50 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import Footerlogo from '../images/image8.png';
+
+import logo1 from '../images/logo_1.png';
+import logo2 from '../images/logo_2.png';
+import logo3 from '../images/logo_3.svg';
 const Footer = () => {
     return (
         <div className="panel-footer">
             <MDBFooter className="font-small pt-4 mt-4">
                 <MDBContainer fluid className="text-center text-md-left">
                     <MDBRow>
-                        <MDBCol md="4">
-                            <h3 className="title">IOT Solution LTD</h3>
-                            <img className="img-fluid" src={Footerlogo} alt="MASKSAVER logo" />
-                        </MDBCol>
-                        <MDBCol md="4">
+                        {/* <MDBCol md="4">
+                            <MDBRow>
+                                <MDBCol md="4">
+                                    <img className="img-fluid" src={logo1} alt="MASKSAVER logo" />
+                                </MDBCol>
+                                <MDBCol md="4">
+                                    <img className="img-fluid" src={logo2} alt="MASKSAVER logo" />
+                                </MDBCol>
+                                <MDBCol md="4">
+                                    <img className="img-fluid" src={logo3} alt="MASKSAVER logo" />
+                                </MDBCol>
+                            </MDBRow>
+                           
+                        </MDBCol> */}
+                        <MDBCol md="6">
                             <h3 className="title">辦公時間</h3>
                             <h5>Mon - Fri: 9am - 6pm</h5>
                             <br />
                             <h3 className="title">聯繫方式</h3>
                             <h5>pr@steamvr.hk</h5>
+                            <br />
+                            <br />
+                            <MDBRow>
+                                <MDBCol md="4" sm="4" xl="4">
+                                    <img className="img-fluid" src={logo1} alt="MASKSAVER logo" />
+                                </MDBCol>
+                                <MDBCol md="4" sm="4" xl="4">
+                                    <img className="img-fluid" src={logo2} alt="MASKSAVER logo" />
+                                </MDBCol>
+                                <MDBCol md="4" sm="4" xl="4">
+                                    <img className="img-fluid" src={logo3} alt="MASKSAVER logo" />
+                                </MDBCol>
+                            </MDBRow>
                         </MDBCol>
-                        <MDBCol md="4">
+                        <MDBCol md="6">
                             <MDBContainer>
                                 <h3 className="title">地址</h3>
                                 <div className="google-maps">
@@ -26,12 +52,13 @@ const Footer = () => {
                                 </div>
                             </MDBContainer>
                         </MDBCol>
+
                     </MDBRow>
                 </MDBContainer>
                 <div className="footer-copyright text-center py-3">
-                    <MDBContainer fluid>
-                        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.facebook.com/masksaver/"> THE MASKSAVER </a>
-                    </MDBContainer>
+                    {/* <MDBContainer fluid> */}
+                        &copy; {new Date().getFullYear()} Copyright:  THE MASKSAVER
+                    {/* </MDBContainer> */}
                 </div>
             </MDBFooter>
         </div>

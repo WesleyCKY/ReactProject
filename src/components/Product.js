@@ -8,15 +8,17 @@ import img3 from '../images/image6.png';
 
 const Product = props => (
     <div className="container">
-        <div className="jumbotron-product jumbo-bootom">
+        <div className="jumbotron-product jumbo-bootom ">
+            <div class="jumbotron-background">
+            </div>
             <MDBContainer fluid className="text-center text-md-left">
+                <div class="bg-image"></div>
                 <MDBRow>
                     <MDBCol md="12">
                         <h1 className="jumbotron-intro-head">SAVING THE MASK 計劃</h1>
                         <h1 className="jumbotron-intro-text">數碼港敢創抗疫計劃成員之一</h1>
                     </MDBCol>
                     <MDBCol md="6">
-                        {/* bannner here */}
                         <img src={ProductImg} alt="product" className="img-fluid" />
                         <br />
                     </MDBCol>
