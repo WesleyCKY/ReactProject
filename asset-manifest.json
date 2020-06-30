@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MaskSaver-web/static/css/main.133f58af.chunk.css",
-    "main.js": "/MaskSaver-web/static/js/main.36b6a63d.chunk.js",
-    "main.js.map": "/MaskSaver-web/static/js/main.36b6a63d.chunk.js.map",
+    "main.js": "/MaskSaver-web/static/js/main.20568450.chunk.js",
+    "main.js.map": "/MaskSaver-web/static/js/main.20568450.chunk.js.map",
     "runtime-main.js": "/MaskSaver-web/static/js/runtime-main.2e22570c.js",
     "runtime-main.js.map": "/MaskSaver-web/static/js/runtime-main.2e22570c.js.map",
     "static/js/2.47758606.chunk.js": "/MaskSaver-web/static/js/2.47758606.chunk.js",
     "static/js/2.47758606.chunk.js.map": "/MaskSaver-web/static/js/2.47758606.chunk.js.map",
     "index.html": "/MaskSaver-web/index.html",
-    "precache-manifest.7bc069c27477d22ab131fce93904ad5d.js": "/MaskSaver-web/precache-manifest.7bc069c27477d22ab131fce93904ad5d.js",
+    "precache-manifest.267e334b5fed76397981ce433c9ef80a.js": "/MaskSaver-web/precache-manifest.267e334b5fed76397981ce433c9ef80a.js",
     "service-worker.js": "/MaskSaver-web/service-worker.js",
     "static/css/main.133f58af.chunk.css.map": "/MaskSaver-web/static/css/main.133f58af.chunk.css.map",
     "static/js/2.47758606.chunk.js.LICENSE.txt": "/MaskSaver-web/static/js/2.47758606.chunk.js.LICENSE.txt",
@@ -20,8 +20,8 @@
     "static/media/image6.png": "/MaskSaver-web/static/media/image6.720f884c.png",
     "static/media/image7.png": "/MaskSaver-web/static/media/image7.6f8caa15.png",
     "static/media/image8.png": "/MaskSaver-web/static/media/image8.c4497658.png",
-    "static/media/jpic1.jpg": "/MaskSaver-web/static/media/jpic1.a394f462.jpg",
-    "static/media/jpic2.jpg": "/MaskSaver-web/static/media/jpic2.0b0984fb.jpg",
+    "static/media/jpic1.jpg": "/MaskSaver-web/static/media/jpic1.1072dd1f.jpg",
+    "static/media/jpic2.jpg": "/MaskSaver-web/static/media/jpic2.299e5ac4.jpg",
     "static/media/jpic3.jpg": "/MaskSaver-web/static/media/jpic3.1719d56f.jpg",
     "static/media/App.css": "/MaskSaver-web/static/media/logo.7de1c20e.jpeg",
     "static/media/photo1.jpeg": "/MaskSaver-web/static/media/photo1.6025187d.jpeg",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.2e22570c.js",
     "static/js/2.47758606.chunk.js",
     "static/css/main.133f58af.chunk.css",
-    "static/js/main.36b6a63d.chunk.js"
+    "static/js/main.20568450.chunk.js"
   ]
 }
