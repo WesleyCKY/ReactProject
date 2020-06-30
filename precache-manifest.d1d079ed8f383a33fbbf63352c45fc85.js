@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4f4203d509985adeb04a4b3e1f4b1cd",
+    "revision": "a25960b83d9573f737220e7aa6fdfb36",
     "url": "/MaskSaver-web/index.html"
   },
   {
-    "revision": "50acc3b1059352a24ffe",
+    "revision": "d2ae80008a7cb7947fe8",
     "url": "/MaskSaver-web/static/css/main.133f58af.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/js/2.47758606.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50acc3b1059352a24ffe",
-    "url": "/MaskSaver-web/static/js/main.20568450.chunk.js"
+    "revision": "d2ae80008a7cb7947fe8",
+    "url": "/MaskSaver-web/static/js/main.b00ef2b7.chunk.js"
   },
   {
     "revision": "73358c22b4a4666f3da9",
@@ -36,32 +36,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/media/image3.9f9dd530.jpg"
   },
   {
-    "revision": "624d77f02de123f09e6ec197d4ebfd57",
-    "url": "/MaskSaver-web/static/media/image4.624d77f0.png"
+    "revision": "3d257de4c94f3f574000f6e9471c9d64",
+    "url": "/MaskSaver-web/static/media/image4.3d257de4.png"
   },
   {
-    "revision": "bf6d43dbc03bcf03fb1feea630c0ba42",
-    "url": "/MaskSaver-web/static/media/image5.bf6d43db.png"
+    "revision": "ece393e1375611bf958bac4bd3b439ca",
+    "url": "/MaskSaver-web/static/media/image5.ece393e1.png"
   },
   {
-    "revision": "720f884c656440988464ec1451a2d7cb",
-    "url": "/MaskSaver-web/static/media/image6.720f884c.png"
+    "revision": "40c06a1021c3f6004291fe02b7620bd3",
+    "url": "/MaskSaver-web/static/media/image6.40c06a10.png"
   },
   {
-    "revision": "6f8caa150fa8c61ed104f7a17519d42f",
-    "url": "/MaskSaver-web/static/media/image7.6f8caa15.png"
+    "revision": "9d51d64595cb7850653475e5ef847605",
+    "url": "/MaskSaver-web/static/media/image7.9d51d645.png"
   },
   {
     "revision": "c449765825ae23b627174d2b54ed0924",
     "url": "/MaskSaver-web/static/media/image8.c4497658.png"
   },
   {
-    "revision": "1072dd1fcca919b89abf8e2e4d059c77",
-    "url": "/MaskSaver-web/static/media/jpic1.1072dd1f.jpg"
+    "revision": "453cc20cf1ef9c9b7895d48f688fca68",
+    "url": "/MaskSaver-web/static/media/jpic1.453cc20c.jpg"
   },
   {
-    "revision": "299e5ac4d142145360287366c74df89a",
-    "url": "/MaskSaver-web/static/media/jpic2.299e5ac4.jpg"
+    "revision": "e1d06f46a9b7c3b06ef43b96fb3ff577",
+    "url": "/MaskSaver-web/static/media/jpic2.e1d06f46.jpg"
   },
   {
     "revision": "1719d56fbc5196ad71f075fad9229a9d",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/media/logo.7de1c20e.jpeg"
   },
   {
-    "revision": "6025187d1e13d85157353119cb97b19d",
-    "url": "/MaskSaver-web/static/media/photo1.6025187d.jpeg"
+    "revision": "be0f176279058e3278be1f67655127af",
+    "url": "/MaskSaver-web/static/media/photo1.be0f1762.jpeg"
   },
   {
-    "revision": "d02a672c386081b6e0c114cc53f73bf2",
-    "url": "/MaskSaver-web/static/media/photo10.d02a672c.jpeg"
+    "revision": "bcd2b2d0566be5d5ed72dfe7d4983ed8",
+    "url": "/MaskSaver-web/static/media/photo10.bcd2b2d0.jpeg"
   },
   {
-    "revision": "abd6da6be61fed451497fd98ae68df7a",
-    "url": "/MaskSaver-web/static/media/photo11.abd6da6b.jpeg"
+    "revision": "3cf0e6126af1fb81d6ee48939886f58b",
+    "url": "/MaskSaver-web/static/media/photo11.3cf0e612.jpeg"
   },
   {
     "revision": "c7febe18c42b0c6185b2b9f0941a3a08",
@@ -96,23 +96,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MaskSaver-web/static/media/photo4.7a589bcf.jpg"
   },
   {
-    "revision": "fbde9e7e37a777762f17b04756efc345",
-    "url": "/MaskSaver-web/static/media/photo5.fbde9e7e.jpg"
+    "revision": "4374adf77080f3b7ed14d1fc54181c12",
+    "url": "/MaskSaver-web/static/media/photo5.4374adf7.jpg"
   },
   {
-    "revision": "d775cc80d525fb8946a60ca3552bcd41",
-    "url": "/MaskSaver-web/static/media/photo6.d775cc80.jpg"
+    "revision": "6dd9eb17aee489fd2c0119273bd65b15",
+    "url": "/MaskSaver-web/static/media/photo6.6dd9eb17.jpg"
   },
   {
-    "revision": "404d5158e865eea261d154946f240c30",
-    "url": "/MaskSaver-web/static/media/photo7.404d5158.jpg"
+    "revision": "fba2a0c2aea4c4cff87cd454080efe81",
+    "url": "/MaskSaver-web/static/media/photo7.fba2a0c2.jpg"
   },
   {
     "revision": "bd8acd2a9ea7a82f15ead6bc0c2ec38b",
     "url": "/MaskSaver-web/static/media/photo8.bd8acd2a.jpg"
   },
   {
-    "revision": "327b70333ffdb5b0d3ae7c12c77fc794",
-    "url": "/MaskSaver-web/static/media/photo9.327b7033.jpeg"
+    "revision": "da0eb2ec431884190f2b8704e1bdfd02",
+    "url": "/MaskSaver-web/static/media/photo9.da0eb2ec.jpeg"
   }
 ]);
